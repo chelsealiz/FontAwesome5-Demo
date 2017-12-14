@@ -1,0 +1,77 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+}
+
+p, a, ul {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+.content-holder {
+	max-width: 1000px;
+	margin: 40px auto;
+
+	@media (min-width: 1000px){
+
+		margin: 200px auto;
+	}
+}
+
+.page-title {
+
+}
+
+.copyright a {
+	color: #7745bc;
+}
+
+.copyright a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+div {
+	margin-bottom: 30px;
+
+	@media (min-width: 1000px){
+		margin-bottom: 150px;
+	}
+}
+
+.main-content {
+	margin-bottom: 20px;
+}
+
+.icons {
+	margin-left: 15px;
+}
+
+svg {
+	background-color: #c7bed3;
+}
+
+.icon-spinning .icons svg {
+	background-color: transparent;
+}
+
+.fa-layers {
+	background-color: #c7bed3;
+}
+
+.fa-layers svg {
+	background-color: transparent;
+}
+
+footer {
+	background-color: #c7bed3;
+
+	padding: 40px;
+
+	@media (min-width: 1000px){
+
+		margin: 200px 40px;
+	}
+}
